@@ -1,0 +1,57 @@
+/* set up cacs màu sắc font mặc định cho web ko cần viết lại nhiều lần, muốn thay đổi chỉ
+cần vào đây sửa lại */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root{
+    --color-blue:#103178;
+    --color-yellow:#FFC800;
+    --color-text:#5B7BB7;
+
+    --font:"Inria Serif", serif;
+}
+*{
+     box-sizing: border-box;
+}
+body{
+    /* css font sẵn cho thẻ body thì các thẻ khác sẽ ăn theo */
+    font-family: var(--font);
+   
+    color: var(--color-text);
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    /* tôi khai báo mặc định cho body vì thấy 2 bên nó có khoảng trắng xuyên suốt trang web nên css mặc định của nó luôn */
+    width:100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
