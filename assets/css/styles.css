@@ -119,6 +119,7 @@ header{
     background-color: white;
     color:var(--color-yellow);
     transition: 0.3s;
+
 }
 
 .button-one{
@@ -139,6 +140,17 @@ header{
     background-color: white;
     color:var(--color-yellow);
     transition: 0.3s;
+}
+
+.button-five{
+    background-color: #13A05D;
+    color:white;
+    border:1px solid #13A05D;
+}
+.button-five:hover{
+    background-color: white;
+    color:#13A05D;
+    font-weight: 600;
 }
 
 /* End Button */
@@ -284,7 +296,11 @@ header{
     margin-top: 0;
     font-size: 32px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.section-two .inner-box .inner-title1{
+    margin-bottom:25px;
 }
 
 .section-two .inner-box .inner-title2{
@@ -295,7 +311,7 @@ header{
     color: var(--color-yellow);
     font-size: 48px;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .section-two .inner-box .inner-title3{
@@ -312,7 +328,7 @@ header{
     font-size: 23px;
     text-decoration:line-through ;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom:15px;
 }
 /* Sectiion Two */
 
@@ -399,4 +415,22 @@ header{
     height:auto;
     border-radius: 8px;
 }
+
+/*Section Five*/
+.section-five{
+    background-color: #F0F2F5;
+    padding: 32px;
+}
+.section-five .inner-wrap{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/background23.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin:30px 0px;
+    width:1040px;
+}
+/*End Section Five*/
 
