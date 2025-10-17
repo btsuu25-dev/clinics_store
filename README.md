@@ -7,7 +7,7 @@ Dự án được tạo ra nhằm thực hành thiết kế giao diện web tĩn
 
 ## 🚀 Demo
 
-👉 [Xem trang web tại đây]([https://your-username.github.io/clinics_store/](https://clinics-store.vercel.app/))  
+👉 [Xem trang web tại đây](https://clinics-store.vercel.app/)  
 
 ## 🧩 Công nghệ sử dụng
 
